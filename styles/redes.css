@@ -1,0 +1,50 @@
+main h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.contenedorT {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.contenedorT .card {
+  width: 330px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(239, 57, 57, 0.798);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  margin-bottom: 40px;
+}
+
+.contenedorT .card:hover {
+  transform: translate(-15px);
+  box-shadow: 0 2px 2px rgba(222, 59, 4, 0.969);
+}
+
+.contenedorT .card img {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedorT .card h4 {
+  font-size: 1.3em;
+  color: black;
+}
+
+.contenedorT .card p {
+  color: black;
+}

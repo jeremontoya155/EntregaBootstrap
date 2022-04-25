@@ -1,0 +1,33 @@
+.cont {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+}
+
+.titulo {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.subtitulo {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.cont img {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.contD img {
+  float: right;
+}
+
+.cont p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
